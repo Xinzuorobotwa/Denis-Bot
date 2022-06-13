@@ -121,6 +121,7 @@ handler.help = ['m']
 handler.tags = ['general']
 handler.alias = ['m']
 handler.command = /^(m)$/i
+handler.register = true
 handler.exp = 3
 
 export default handler
