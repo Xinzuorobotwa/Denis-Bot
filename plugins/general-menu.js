@@ -95,17 +95,14 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
    conn.sendButton(m.chat, `*${wish()}, ${name} 👋*`, text.trim(), await genProfile(conn, m), [['Speedtest', _p + 'ping'], ['Owner', _p + 'owner']], false, { quoted: fkon, contextInfo: { externalAdReply: { showAdAttribution: true,
 mediaType: 'VIDEO',
 mediaUrl: 'https://www.kibrispdr.org/dwn/7/yotsuba-nakano-wallpaper.jpg',
-title: 'Simple Bot Esm',
-body: 'By Papah-Chan',
+title: 'Xinzuo Multi-Device',
+body: 'DenzzLuxxy',
 thumbnail: fs.readFileSync("./thumbnail.jpg"),
-sourceUrl: 'https://youtu.be/poD-7_U3jXk'
+sourceUrl: 'https://chat.whatsapp.com/G95q9ie35871RfQZbPmDV5'
 }
   }
 })
-conn.sendFile(m.chat, vn, 'dj1.mp3', null, m, true, {
-type: 'audioMessage', 
-ptt: true 
-})
+
     // conn.sendButton(m.chat, 
     //`*Hi, ${name} 👋*\n\n`, 
   //  text.trim(), './media/marin.jpg', [
