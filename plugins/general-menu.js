@@ -98,7 +98,7 @@ mediaUrl: 'https://www.kibrispdr.org/dwn/7/yotsuba-nakano-wallpaper.jpg',
 title: 'Xinzuo Multi-Device',
 body: 'DenzzLuxxy',
 thumbnail: fs.readFileSync("./thumbnail.jpg"),
-sourceUrl: 'https://chat.whatsapp.com/G95q9ie35871RfQZbPmDV5'
+sourceUrl: 'https://chat.whatsapp.com/I1s8ZSIFB5v1d5Vzjp5lqJ'
 }
   }
 })
